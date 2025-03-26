@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(234, 238, 225);
+    color:rgb(55, 44, 29);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+
+    header{
+    background-color: rgb(76, 148, 37);
+    color:white;
+    text-align: center;
+    padding: 25px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+
+}
+header h1{
+font-weight:bold;
+font-size: 42px;
+margin:0;
+text-shadow :2px 1px 2px whitesmoke;
+}
+
+nav{
+    background-color: rgb(66, 84, 61);
+    text-align: center;
+    padding: 12px;
+}
+nav a{
+    color:whitesmoke;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+nav a:hover{
+    color: rgb(189, 251, 45);
+    text-decoration: underline;
+    display:inline-block;
+}
+div {
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #cdfdb7;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgb(4, 66, 4,10%);;
+    transition: box-shadow 0.3s ease;
+}
+div:hover {
+    box-shadow: 0 6px 10px darkgreen;
+}
+div h2 {
+    color: #144409;
+    /* Bright Blue */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+table{
+    border-collapse: collapse;
+    margin: 10px;
+    width:100%;
+    font-size: 18px;
+
+}
+table td,th{
+    border: 2px solid gray;
+    padding: 12px;
+    text-align: left;
+
+}
+table th{
+    background-color: rgb(159, 222, 189);
+}
+table tr:nth-child(even){
+    background-color: rgb(174, 220, 183);
+}
+    
+#speaker ul{
+list-style-type: none;
+padding: 0%;
+}
+
+#speaker ul li{
+margin:10px 0;
+font-size: 18px;
+padding: 5px;
+}
+
+#speaker ul li strong{
+    color: #2e954f;
+}
+
+form {
+    max-width: 650px;
+    margin: 20px auto;
+}
+form label {
+    display: block;
+    margin-bottom: 1px;
+    font-weight: 600;
+    font-size: 18px;
+}
+form input,
+form textarea
+ {
+    width: 90%;
+    padding: 10px;
+    
+    border: 1px solid #d7edd9;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+form input:focus,
+form textarea:focus {
+    border-color: #052c08;
+    outline: none;
+}
+form button {
+    background-color: #43e481;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: 130px;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+form button:hover {
+    background-color: #014d1d;
+    color: white;
+}
+form button:active {
+    background-color: #033d19;
+}
